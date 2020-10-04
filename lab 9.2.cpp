@@ -5,6 +5,6 @@ int main() {
 	int k;
 	cout << "Vvedite den'\n";
 	cin >> k;
-	k = (1+(k % 7))%7;
+	k = k % 7;
 	cout << k;
 }
