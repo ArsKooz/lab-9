@@ -9,12 +9,12 @@ int main()
 	cin >> a >> b >> c;
 	s = a * b;
 	l = 0;	k = 0;
-	while ((a >= c)&&(a-c>=0) )
+	while (a >= c )
 	{
 		a -= c;
 		l++;
 	}
-	while  ((b>= c)&&(b-c>=0))
+	while  (b>= c)
 	{
 		b -= c;
 		k++;
